@@ -1,3 +1,3 @@
 # ThinkParth
-This is my first Git repository.
+This is my first Git Repository.
 Coder - Parth Rohilla
