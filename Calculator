@@ -1,0 +1,122 @@
+import java.util.Scanner;
+public class Calculator{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Welcome to Fubu Calculator, May i please know your name:");
+        String x = sc.nextLine();
+        System.out.println("Hello!! " +x+ " Choose the Mathematical Operations that you want to use for your numbers:");
+        System.out.println(" 1)Addition\n 2)Substraction\n 3)Multiplication\n 4)Division\n 5)Modulus\n 6)Square\n 7)Cube\n 8)Average\n 9)Percentage");
+        int z = sc.nextInt();
+        switch(z)
+        {
+            case 1:
+            System.out.println("Addition");
+            System.out.println("Enter integer one: ");
+            int y = sc.nextInt();
+            System.out.println("Enter integer two: ");
+            int u = sc.nextInt();
+            int sum = y+u;
+            System.out.println("The Addition between " +y+ " and " +u+ " is: "+sum);
+            break;
+
+            case 2:
+            System.out.println("Substraction");
+            System.out.println("Enter integer one: ");
+            int r = sc.nextInt();
+            System.out.println("Enter integer two: ");
+            int a = sc.nextInt();
+            int subs = r-a;
+            System.out.println("The Substraction between " +r+ " and " +a+ " is: " + subs);
+            break;
+
+            case 3:
+            System.out.println("Multiplication");
+            System.out.println("Enter integer one: ");
+            int w = sc.nextInt();
+            System.out.println("Enter integer two: ");
+            int g = sc.nextInt();
+            int f = w*g;
+            System.out.println("The Multiplication between " +w+ " and " +g+ " is: "+f);
+            break;
+
+            case 4:
+            System.out.println("Division");
+            System.out.println("Enter integer one: ");
+            int v = sc.nextInt();
+            System.out.println("Enter integer two: ");
+            int s = sc.nextInt();
+            double div =(double) v/s;
+            System.out.println("The Division between" +v+ " and " +s+ " is: " +div);
+            break;
+
+            case 5:
+            System.out.println("Modulus");
+            System.out.println("Enter integer one: ");
+            int i = sc.nextInt();
+            System.out.println("Enter integer two:");
+            int m = sc.nextInt();
+            float t = i%m;
+            System.out.println("The Modulus between" +i+ " and " +m+ " is: " +t);
+            break;
+
+            case 6:
+            System.out.println("Square");
+            System.out.println("Enter integer one: ");
+            int q = sc.nextInt();
+            int pi = q*q;
+            System.out.println("The Square of " +q+ " is: " + pi);
+            break;
+
+            case 7:
+            System.out.println("Cubes");
+            System.out.println("Enter a integer: ");
+            int c = sc.nextInt();
+            int cube = c*c*c;
+            System.out.println("The Cube of " +c+ " is:" +cube);
+            break;
+
+            case 8:
+            System.out.println("Average");
+            System.out.println("Enter integer one: ");
+            int b = sc.nextInt();
+            System.out.println("Enter integer two: ");
+            int n = sc.nextInt();
+            int Average = b+n;
+            int yx = Average/2;
+            System.out.println("The Average between " +b+ " and " +n+ " is: " + yx);
+            break;
+
+            case 9:
+            System.out.println("Percentage");
+            System.out.println("Enter a number: ");
+            int an = sc.nextInt();
+            System.out.println("Choose the following in which you want the percentage in terms of");
+            System.out.println(" 1)10% of your number\n 2)50% of your number\n 3)30% of your number");
+            int xy = sc.nextInt();
+            int yu = 10;
+            int gh = 50;
+            int hg = 30;
+            int ui = 100;
+                    float per1 = (an * yu) / 100f;
+                    float per2 = (an * gh) / 100f;
+                    float per3 = (an * hg) / 100f;
+                    if(xy == 1){
+                        System.out.println("10% of " + an + " is: " + per1);
+                    }
+                    else if(xy == 2){
+                        System.out.println("50% of " + an + " is: " + per2);
+                    }
+                    else if(xy == 3){
+                        System.out.println("30% of " + an + " is: " + per3);
+                    }
+                    else{
+                        System.out.println("Error: Invalid option selected.");
+                    }
+                    break;
+        
+                    default:
+                    System.out.println("Hello Everyone,My name is Parth Rohilla,Hope you liked my Calculator.\nPlease do share it with your friends,i will be grateful if you did it,Thank you very much for reviewing it.");
+                    break;
+                }
+            }
+        }
