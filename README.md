@@ -10,3 +10,6 @@ Hello Everyone,My name is Parth Rohilla from (AIML) Branch,Currently Studying in
 Btech-1st Year
 <br>
 Linkedln profile-https://www.linkedin.com/in/parth-rohilla-b14919361?
+Github profile-https://github.com/Parth2753
+CodeChef profile-https://www.codechef.com/users/ultra2815
+
