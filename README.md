@@ -16,5 +16,9 @@ Github profile-https://github.com/Parth2753
 CodeChef profile-https://www.codechef.com/users/ultra2815
 <br>
 Hackerrank profile-https://www.hackerrank.com/profile/parth_rohilla08
+<br>
+Google Developer Profile-https://developers.google.com/profile/u/100561711803700493027
+<br>
+Google Community Profile-https://gdg.community.dev/u/mcz2a7/#/about
 
 
